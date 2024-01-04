@@ -241,7 +241,6 @@ export const finalizeOptions = <T extends DataType>(
     if (typeof columns[0].id === "string") {
         columnPinning = {left: [columns[0].id]};
     } 
-    console.log(columnPinning)
     return writable<TableOptions<T>>({
         ...defaultOptions,
         data,
