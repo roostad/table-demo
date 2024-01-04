@@ -1,0 +1,1 @@
+from app.api.accounts.routes import accounts
